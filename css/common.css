@@ -1,0 +1,16 @@
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.block{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.h2{
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-weight: 500;
+}

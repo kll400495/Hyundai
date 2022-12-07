@@ -1,0 +1,33 @@
+.scroll{
+
+    background-color: rgba(255,255,255,0.5);
+    font-size: 0;
+    width: 48px;
+    height: 68px;
+    position: absolute;
+    bottom: 148px;
+    left: calc(50% - 24px);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scroll::before{
+    content: "";
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333;
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+}
+.scroll::after{
+    content: "";
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333;
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+}
